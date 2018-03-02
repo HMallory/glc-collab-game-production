@@ -10,39 +10,36 @@ Preview Instructor Notes: <a href="https://ladieslearningcode.github.io/glc-coll
 
 Preview Slides: <a href="https://ladieslearningcode.github.io/glc-collab-game-production/slides-en.html">ladieslearningcode.github.io/glc-collab-game-production/slides-en.html</a>
 
-Scratch "Catch Em" <a href="https://drive.google.com/open?id=1AQNH-EQUEVi8GGe_lpqPpLaNOU2F5Rx0u0srs5nB-k0">Solution Sheet</a>
+Scratch "Catch Em" <a href="https://docs.google.com/document/d/116daYtZcZ_OsVc80g6xfr8azoDyKSvYiVFA5xQrrBAc/edit?usp=sharing">Solution Sheet</a>
 
 ## Special Instructions
 
-As the instructor, you will be facilitating all of the entire-group content, as well as the Gamebuilding station. During the Tech Stations portion, the Chapter Lead will support the additional two stations (Audio and Artworks).
+As the instructor, you will be facilitating everything *except for* the Stations section. After you introduce the Audio and Artworks stations, the mentors will facilitate with support from the Chapter Lead.
 
 ## Additional Resources (Optional)
 
 Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/unplugged-activities-doc</a>
 
-Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-doc">bit.ly/youth-facilitator-handbook-doc</a>
-
 
 # HOW TO USE:
 ## Before the Workshop
-1 Week to Go
+2 Weeks to Go
 
 * Download this folder.
 * Read the Instructor Notes for context (open in your browser).
 
-3 Days to Go
+1 Week to Go
 
-* Create a class in the Scratch Teacher account, and upload the starter project(s) - OR confirm that this has been done.
-* Create a bit.ly link to join the class - OR confirm that this has been done. (e.g. bit.ly/glcday-toronto)
-* Make a student account using the bit.ly link and practice going through the "Catch Em" game in Scratch. (DO NOT EDIT THE STARTER PROJECT FROM THE TEACHER ACCOUNT)
-
-<strong>Here is the list of the <a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">Scratch Teacher Account info</a> for each chapter </strong>
+* Sign in to your chapter's Scratch Teacher Account using <a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">this account info</a>
+* Confirm that a "GLCCodeDay2018" Class has been created for your chapter
+* Make a student account using the bit.ly link (<a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">found in the same doc</a>)
+* Practice going through the "Catch Em" game in Scratch using the provided <a href="https://docs.google.com/document/d/116daYtZcZ_OsVc80g6xfr8azoDyKSvYiVFA5xQrrBAc/edit?usp=sharing">Solution Sheet</a>.
 
 2 Days To Go
 
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
     * Insert the network info (Slide 1)
-    * Replace the bit.ly sign up link (Slide 27)
+    * Replace the bit.ly sign up link (Slide 1 and 25)
 
 1 Day to Go
 
