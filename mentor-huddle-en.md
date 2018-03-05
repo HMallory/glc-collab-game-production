@@ -31,7 +31,7 @@
   * Printed instructions on table
   * Checklists on table
   * Signage on appropriate tables
-  * Headphones at Audio station
+  * Headphones at Audio station *(these may already be provided)*
 
 ## Station Assignment (5 minutes)
 * Quickly assign mentors to stations based on their experience with*:

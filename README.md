@@ -35,15 +35,12 @@ Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/un
 * Make a student account using the bit.ly link (<a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">found in the same doc</a>)
 * Practice going through the "Catch Em" game in Scratch using the provided <a href="https://docs.google.com/document/d/116daYtZcZ_OsVc80g6xfr8azoDyKSvYiVFA5xQrrBAc/edit?usp=sharing">Solution Sheet</a>.
 
-2 Days To Go
+1 Day To Go
 
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
     * Insert the network info (Slide 1)
     * Replace the bit.ly sign up link (Slide 1 and 25)
-
-1 Day to Go
-
-* Print the Notes and Solution Sheet to bring along
+    * *A printed copy of the Notes and Solution Sheet will be provided on the day-of*
 
 ## During the Workshop
 * Have Notes accessible throughout the workshop - follow along for support.
