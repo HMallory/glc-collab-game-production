@@ -1,8 +1,8 @@
 ## English: (Scroll down for French *coming soon!*)
 
-# **National Girls Learning Code Day**
+# National Girls Learning Code Day 2018
 
-# Girls Learning Code: Collaborative Game Production
+# Collaborative Game Production
 
 ## Quick Links
 
