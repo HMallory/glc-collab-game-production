@@ -1,6 +1,6 @@
-# NOT YET AVAILABLE TO CHAPTERS
+## English: (Scroll down for French *coming soon!*)
 
-## English: (Scroll down for French)
+# National Girls Learning Code Day:
 
 # Girls Learning Code: Collaborative Game Production
 
