@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Canada en programmation</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression / durée : définissez la durée de la présentation avec « data-duration » en minutes. -->
+<body class="en" style="font-size:2.5rem;" data-duration="360">
+
+  <main>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        ##Notes de la formatrice
+
+        ##Girls Learning Code : Production d'un jeu vidéo en collaboration
+        <br>
+
+        #INDEX
+        ###<a href="#slide2" target="_self">Utilisation de Scratch</a>
+        ###<a href="#slide3" target="_self">Ordre du jour</a>
+        ###<a href="#slide4" target="_self">Introduction</a>
+        ###<a href="#slide5" target="_self">Postes</a>
+        ###<a href="#slide6" target="_self">Construction du jeu</a>
+        ###<a href="#slide7" target="_self">Test bêta</a>
+        ###<a href="#slide8" target="_self">Publication du jeu</a>
+        ###<a href="#slide9" target="_self">Activité hors ligne (facultatif)</a>
+        ###<a href="#slide10" target="_self">Conclusion</a>
+
+        <br><br>
+        #Utilisation de Scratch
+
+        Scratch est un outil fantastique servant à enseigner les concepts de la programmation tout en créant des jeux numériques amusants et créatifs. Si vous ne connaissez pas l'outil, bonne nouvelle! Il y a une tonne de ressources en ligne à votre disposition. Voici quelques ressources que nous vous suggérons :
+
+        * <a href="https://scratch.mit.edu/educators/#resources">Ressources de Scratch pour les enseignants</a> (plus particulièrement le <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">guide de démarrage</a>, en anglais)
+        * <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Formation de Google CS First</a>
+        * <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide de Teachers Learning Code</a>
+        *  <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Scratch ED: Using the Scratch Teacher Account (guide pour les comptes pour enseignants, en anglais)</a>
+
+        <br>
+        #Ordre du jour
+
+        ![icône d'intro](framework/img/workshop/intro-icon.png) Introduction et remue-méninge (30 minutes)
+
+        ![icône de programmation en groupe](framework/img/workshop/code-icon.png) Postes (1 heure)
+
+        &nbsp; &nbsp; &nbsp; Pause (10 minutes)
+
+        ![icône d'ordinateur](framework/img/workshop/laptop-icon.png) Construction du jeu vidéo (2 heures)
+
+        ![icône d'ordinateur, groupe](framework/img/workshop/laptop-icon.png) Test bêta (10 minutes)
+
+        &nbsp; &nbsp; &nbsp; Publication du jeu (10 minutes)
+
+        <br>
+        #Introduction
+
+        ##Dialogue d'ouverture
+
+        Bienvenue à l'atelier de Girls Learning Code : Production d'un jeu vidéo en collaboration! Nous sommes ravies que vous soyez ici aujourd'hui et nous espérons que vous êtes prêtes à apprendre plein de nouvelles choses.
+
+        Y a-t-il des gens qui ont déjà assisté à l'une de nos activités?
+        (Si certaines apprenantes lèvent la main, demandez-leur quelles sont les activités auxquelles elles ont participé.)
+
+        Nous avons commencé à organiser des ateliers et des camps pour les filles dans le cadre du programme Girls Learning Code en 2012. À la demande de parents ayant des garçons, nous avons démarré Kids Learning Code en 2013. Depuis, nous sommes présents dans plus de 29 villes du Canada et avons enseigné la programmation à plus de 19 000 enfants!
+
+        Avant de commencer l'atelier, voici quelques points à aborder :
+
+        * <strong>Salle de bains :</strong> Qui peut me pointer dans quelle direction se trouve la salle de bains? (indiquez son emplacement et précisez si la salle de bains est neutre de genre). Si vous avez besoin d'aller à la salle de bains, allez-y avec votre parent / tuteur ou un autre élève.
+        * <strong>Eau :</strong> Si vous avez une bouteille d'eau, vous pouvez la garder sur votre bureau en vous assurant que le bouchon est bien fermé quand vous ne l'utilisez pas.
+        * <strong>Pause et collation :</strong> Nous prendrons une pause au milieu de l'atelier, pendant laquelle vous pourrez manger une collation *sans arachides* ou vous étirer un peu. N'oubliez pas de jeter l'emballage de votre collation et de nettoyer les miettes quand vous aurez fini.
+
+        ##Diapositives d'intro
+
+        <table style="font-size:2rem;">
+            <tr>
+              <td><h2>Diapositive</h2></td>
+              <td><h2>Notes</h2></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/3_fr.png" alt="slide"></td>
+              <td> J'aimerais vous présenter des gens très importants pour nous : les mentors!
+              <br>
+              <i>Demandez aux mentors de vous rejoindre à l'avant de la classe, de dire leur nom et de nommer l'un de leurs sites ou jeux préférés.</i>
+              <br><br>
+              Les mentors seront là pour vous aider si vous rencontrez des problèmes. N'hésitez pas à leur poser des questions en cas de pépin, ou à leur montrer vos super projets! </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/4_fr.png" alt="slide"></td>
+              <td>*Regardez l'ordre du jour. Informez les apprenantes qu'elles ne travailleront que sur UN poste (audio ou graphisme) pendant la séance de travail aux postes (voir « Postes »).* </td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/5_fr.png" alt="slide"></td>
+              <td>
+                <ol>
+                    <li><strong>Demandez de l'aide</strong> : Si vous êtes coincées ou rencontrez des problèmes, travaillez avec votre voisine ou levez la main pour poser des questions à la formatrice ou à un mentor.
+                    <li><strong>Soyez présentes</strong>: Nous souhaitons que vous appreniez beaucoup de choses pendant l'atelier. Assurez-vous de prêter attention pendant le cours et de suivre pendant les activités.
+                    <li><strong>Faites de votre mieux</strong>: Même les meilleures programmeuses éprouvent parfois de la difficulté. Nous ne nous attendons pas à ce tout soit parfait la première fois, mais nous voulons que vous fassiez de votre mieux. N'ayez pas peur d'essayer de nouvelles choses et de vous tromper!</td>
+                  </ol>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/6_fr.png" alt="slide"></td>
+              <td> *(Écoutez deux ou trois réponses)*</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/7_fr.png" alt="slide"></td>
+              <td> *Moment idéal pour faire l'activité hors ligne <a href="https://docs.google.com/document/d/19PQ0b9IB8D77CU9LSKUbNaEBvgsTVyytM_LUf0NGjSY/edit?usp=sharing">Le robot</a> (disponible en français)*</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/9_fr.png" alt="slide"></td>
+              <td>Q : Que veut dire « en collaborant »?
+              <br>R : Ensemble! Nous travaillerons sur différents projets et nous les combinerons pour créer un mégaprojet.
+              <br><br>Q : Qu'est-ce qu'un problème de société? Quelle est la différence entre un problème personnel et un problème de société?
+              <br>R : Un problème de société affecte tout le monde ou un grand nombre de gens (p. ex. : la population d'un pays, les femmes, les animaux).
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/10_fr.png" alt="slide"></td>
+              <td> *(Écoutez deux ou trois réponses)*</td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/11_fr.png" alt="slide"></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td><img src="framework/img/workshop/slides/12_fr.png" alt="slide"></td>
+              <td>Nous ferons les étapes ensemble. Pour la plupart des jeux dans la vraie vie, le processus prend des années à compléter. Toutefois, pendant l'atelier, chaque étape sera raccourcie pour que nous terminions aujourd'hui.
+              <br><br>Q : Qu'est-ce que le « débogage »? Pourquoi le fait-on dans l'étape de production?
+              <br>R : Les bogues sont des erreurs dans un jeu (p. ex. : quand le jeu gèle ou quand il y a des fautes d'orthographe). Le débogage est la correction des erreurs et la résolution des problèmes. Nous ferons du débogage en produisant notre jeu, car il s'agit d'une partie essentielle du processus de création! (On le fait aussi pendant la postproduction.)</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/13_fr.png" alt="slide"></td>
+              <td>Aujourd'hui, nous ferons la construction d'un jeu vidéo. Nous diviserons la classe en deux « postes » : une moitié travaillera sur le graphisme, et l'autre sur l'audio. Évidemment, il y a plus que trois équipes qui travaillent sur la production d'un jeu, mais nous nous concentrerons sur celles-ci aujourd'hui. </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/14_fr.png" alt="slide"></td>
+              <td>Nous pouvons nous servir de la technologie (plus précisément, des jeux) pour changer le monde! Pour ce faire, nous utilisons la technologie dans le but de sensibiliser les gens à une cause, d'informer les gens à propos d'un problème, d'inciter les autres à être empathiques ou de suggérer une façon de résoudre un problème.
+              <br><br>L'organisme Games for Change se sert des jeux vidéo, du monde virtuel, pour faire un changement bien réel. Sa mission est d'« encourager les créateurs de jeux et les innovateurs de la société à mener de l'avant un changement dans le monde grâce aux jeux vidéo ».
+              <br><br>Voici deux exemples tirés de leur site.
+              </td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/15_fr.png" alt="slide"></td>
+              <td>*Exemple de thème : Déclin de la population d'abeilles*
+              <br>*(Si la responsable de section choisit un autre thème, veuillez mettre à jour cette diapositive.)*
+              <br><br>Q : Que savons-nous de notre thème?
+              <br><br>*Voyez chaque question avec le groupe. Voici quelques informations supplémentaires :*
+              <br><br><strong>Déclin de la population d'abeilles</strong>
+                <ul>
+                  <li>Ce problème a commencé à la fin des années 90 quand les apiculteurs de partout à travers le monde ont constaté la disparition mystérieuse et soudaine d'abeilles. (Ils ont aussi rapporté un déclin anormalement élevé du nombre d'abeilles dans les colonies produisant du miel, comme celles du bourdon bombus affinis, qui est une espèce en voie d'extinction.)</li>
+                  <li>Changement climatique : température très changeante, précipitations</li>
+                  <li>Qu'est-ce que la biodiversité? : La variété des espèces vivantes et des habitats présents sur la planète</li>
+                  <li>Parasites / maladies : Les abeilles sont plus susceptibles aux maladies, et les pesticides affaiblissent leur système immunitaire.</li>
+                  <li>Une cour bien entretenue est l'équivalent d'un désert pour les abeilles. Comme certaines d'entre elles ont un régime bien précis, la réduction de la biodiversité menace leur survie.</li>
+                </ul></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/16_fr.png" alt="slide"></td>
+              <td>Nous allons créer un jeu du type « ramassez les objets », dans lequel notre personnage principal bougera à l'aide des flèches pour ramasser ou éviter certains objets.
+                <br><br>Voici un exemple de jeu du type « ramassez les objets ». Le nôtre aura des joueurs, des règles et des buts différents, mais suivra plus ou moins le même principe.
+                <br><br>*Appuyez sur le bouton de démarrage du jeu pour le montrer au groupe*</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/17_fr.png" alt="slide"></td>
+              <td>Q : Qui pourrait être notre personnage principal? Que pourrait-il ramasser ou éviter?
+                <br><br>*Demandez aux apprenantes de former des groupes avec deux ou trois voisines et de penser à des idées pour remixer le jeu.
+                <br><br>Affichez une minuterie à l'avant pendant 1 ou 2 minutes (timer-tab.com). Avant de les inviter à partager leurs idées avec le groupe, passez à la prochaine diapositive afin d'expliquer le concept du document conceptuel d'un jeu.*</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/18_fr.png" alt="slide"></td>
+              <td>Le document conceptuel d'un jeu (connu sous le nom de « GDD » pour Game Design Document) est le document dans lequel nous mettrons toutes nos idées pour le jeu.
+              <br><br> Q : Pourquoi un document conceptuel doit-il toujours changer?
+              <br>R : En créant notre jeu, il est possible que nous changions d'idée, ajoutions du contenu ou trouvions un problème qui nous force à changer une partie du jeu. Tout cela est normal pendant la création!</td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/19_fr.png" alt="slide"></td>
+              <td>*Utilisez un tableau blanc ou un carton pour créer votre document conceptuel avec le groupe. Indiquez-y les éléments suivants : <strong>joueurs, règles, buts, titre</strong>.
+              <br><br>Demandez à chaque groupe de partager leurs idées de jeu tirées de l'activité « penser, discuter, partager ».
+              <br><br>Quand quelqu'un a une idée, écrivez-la au tableau (ou sur le carton). Si plusieurs disent la même idée, encerclez-la ou soulignez-la.
+              <br><br>Assurez-vous que tout le monde collabore et ait donné des idées pour chaque aspect. Au besoin, demandez au groupe de voter à propos des idées ou faites un choix vous-même afin d'économiser du temps.
+              <br><br> Si vous avez de la difficulté à trouver des idées, voici un exemple de document conceptuel pour le thème du déclin de la population des abeilles :*
+              <br><br> <strong>Document conceptuel : « Sauvez les abeilles »</strong>
+                <ul>
+                  <li>Personnage principal : abeille</li>
+                  <li>But : ramasser des fleurs, éviter des obstacles (pesticide)</li>
+                  <li>Chaque niveau pourrait avoir des fleurs différentes, un objet bonus (du miel) ou d'autres obstacles (la pollution, un tue-mouche)</li>
+                  <li>Règles : gagnez 1 point en attrapant un objet, perdez 1 point en attrapant un obstacle</li>
+                  <li>Condition d'échec : pointage à 0; Condition de réussite : pointage à 10</li>
+                  <li>Les niveaux pourraient être plus rapides en progressant, le pointage la de condition de réussite pourrait être plus élevé ou il pourrait y avoir plus d'obstacles</li>
+                </ul></td>
+            </tr><tr>
+              <td><img src="framework/img/workshop/slides/20_fr.png" alt="slide"></td>
+              <td>Aujourd'hui, nous travaillerons en équipe de deux avec nos parents, nos tuteurs ou les autres adultes avec qui nous sommes venus.
+              <br><br>Q : Pourquoi programmer à deux? Quels sont les avantages de travailler avec quelqu'un d'autre?
+              <br>R : Par exemple, deux têtes valent mieux qu'une seule. L'autre personne a peut-être une meilleure idée pour améliorer le projet ou celle-ci peut voir des erreurs que nous faisons et résoudre des problèmes avec nous. En travaillant à deux, on obtient un résultat plus rapidement.</td>
+            </tr><tr>
+          </table>
+
+
+        <br>
+        #Postes
+
+        * Dites à la classe que chaque groupe de tables est un « poste ».
+        * Montrez-leur l'image de la configuration du local à la diapositive 22.
+        * Dites à la classe que le poste de graphisme servira à créer des images et que le poste d'audio servira à créer des sons et de la musique de fond.
+        * Demandez aux mentors de chaque poste d'indiquer leur présence en se levant. Expliquez aux élèves que les mentors ont une liste de vérification avec des objets à créer et qu'ils assigneront au moins un objet à créer à chaque élève, au choix (plusieurs objets, s'ils finissent tôt).
+        * Dirigez l'attention du groupe vers les consignes imprimées qui se trouvent à chaque poste.
+        * Avertissez les élèves que vous souhaitez obtenir leurs images et leurs sons sur une clé USB avant la pause.
+        * N'hésitez pas à vous promener pendant l'activité des postes. Comme les mentors s'occupent des tâches à votre place, il s'agit d'un temps privilégié pour interagir avec les élèves et les parents individuellement.
+        * <strong>Prenez les 10 dernières minutes pour obtenir le plus de fichiers possible sur la clé USB fournie.</strong> Au besoin, demandez de l'aide aux mentors ou à la responsable de section.
+
+        ##Pendant la pause
+
+        Suivez <a href="https://docs.google.com/document/d/1FP8mJ6L3ZbUhKvJLDcTsRvUiRTQAzUnwtee7C7svViY/edit?usp=sharing">ces étapes</a> pour téléverser les fichiers de la clé USB vers le studio Scratch « Files » (Fichiers). (document disponible en français)
+
+        *S'il n'y a pas d'Internet : collaborez avec la responsable de section afin de copier tous les fichiers d'image et de son dans un dossier, puis copiez-les sur différentes clés USB. Demandez aux mentors de se lever pendant la petite séance de programmation Scratch en groupe afin de copier le contenu du dossier sur le bureau de l'ordinateur de chaque élève.*
+
+
+        <br>
+        #Construction du jeu
+
+        * Utilisez la diapositive 26 afin de montrer aux élèves où trouver le studio « Files » (Fichiers) et comment télécharger les images et l'audio (enregistrer comme fichier local).
+        * Affichez la liste de vérification de la diapositive 27 et accordez 5 minutes aux élèves afin qu'ils puissent sauvegarder leurs fichiers sur l'ordinateur.
+        * Petite séance de programmation en groupe :
+          * Ouvrez Scratch sur votre ordinateur.
+          * Montrez aux élèves les éléments principaux : la scène, les lutins, et les scripts. Enseignez-leur comment déplacer et emboîter des blocs.
+          * Montrez-leur comment téléverser des lutins : ajoutez le héros et l'objet à ramasser (c'est tout, pour l'instant!).
+          * Montrez-leur comment changer l'arrière-plan.
+          * Accordez 2 minutes aux élèves afin qu'ils puissent faire la même chose sur leur ordinateur.
+          * Pendant qu'ils attendent, les élèves peuvent aussi cliquer sur des blocs pour mettre leur fonction à l'essai.
+        * Suivez le <strong><a href="https://docs.google.com/document/d/1u_zKi3QSYP5ezvEv3ey6wXKZC7ouSisDchVslEBmRgY/edit?usp=sharing">corrigé</a></strong> pendant que vous montrez au groupe à faire un jeu du type « ramassez les objets ». (document disponible en français)
+        * *Si les élèves s'agitent, il est conseillé de prendre une pause de 5 minutes à la moitié de la séance.*
+        * Assurez-vous que tout le monde clique sur le bouton « Partager » (en haut à droite), comme dans la diapositive 29.
+        * Demandez aux apprenantes d'ajouter leurs projets au studio (« Mes classes », sélectionner un studio, ajouter des projets), comme dans la diapositive 30.
+
+        <br>
+        #Test bêta
+
+        * Posez cette question au groupe : « Qu'est-ce qu'un test bêta? » *R : Quand quelqu'un d'autre que les développeurs essaie un jeu.*
+        * Dites au groupe que nous prendrons quelques minutes pour faire un test bêta d'un niveau créé par quelqu'un d'autre dans la classe.
+        * Utilisez la diapositive 32 pour montrer aux apprenantes où trouver les niveaux de tout le monde.
+        * Accordez-leur 5 minutes pour jouer à un ou deux niveaux du studio.
+        * *Bien qu'il soit impossible de corriger tous les bogues par manque de temps, il est essentiel de faire l'expérience de cette étape du processus de création.*
+
+
+        <br>
+        #Publication du jeu
+
+        * Dites à tout le monde de terminer leurs projets et de fermer leur ordinateur.
+        * Annoncez la publication de notre jeu terminé. (Yé! On est excitées!)
+        * Demandez à deux ou trois bénévoles d'aller à l'avant et de faire une DÉMONSTRATION de leurs projets. Accédez aux niveaux à partir du studio de construction de jeu (Gamebuilding).
+        * <strong>Reflexion</strong> : Utilisez la diapositive 35 pour faire un retour sur les apprentissages.
+        * Utilisez la diapositive 36 pour indiquer les éléments qui ont peut-être été oubliés.
+
+
+        <br>
+        #Conclusion
+
+         Tout le monde a fait un excellent travail aujourd'hui. Nous sommes très impressionnées par vos projets!
+
+         Si vous souhaitez en savoir plus à propos de la programmation, de la conception et de la technologie, visitez notre site girlslearningcode.com pour savoir quand se dérouleront nos prochains ateliers et vous abonner à notre liste d'envoi. (Nommez le prochain atelier et faites-en une petite description.)
+
+         Avant de partir, applaudissons chaleureusement nos mentors!
+
+         Merci beaucoup! Nous espérons vous voir dans un nouvel atelier très bientôt!
+
+         <strong>Rassemblez tout le monde pour une photo de groupe! </strong>
+
+       </script>
+    </section>
+
+<!--Diapositives supplémentaires liées dans la table des matières-->
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Utilisation de Scratch
+
+      Scratch est un outil fantastique servant à enseigner les concepts de la programmation tout en créant des jeux numériques amusants et créatifs. Si vous ne connaissez pas l'outil, bonne nouvelle! Il y a une tonne de ressources en ligne à votre disposition. Voici quelques ressources que nous vous suggérons :
+
+      * <a href="https://scratch.mit.edu/educators/#resources">Ressources de Scratch pour les enseignants</a> (plus particulièrement le <a href="https://cdn.scratch.mit.edu/scratchr2/static/__0c1805349a6fe15c01c668d3f8acd971__/pdfs/help/Getting-Started-Guide-Scratch2.pdf">guide de démarrage</a>, en anglais)
+      * <a href="https://www.cs-first.com/training/introduction-computer-science-and-scratch">Formation de Google CS First</a>
+      * <a href="http://teacherslearningcode.com/assets/TLC-gettingstartedguide.pdf">Guide de Teachers Learning Code</a>
+      *  <a href="http://scratched.gse.harvard.edu/resources/scratch-teacher-accounts">Scratch ED: Using the Scratch Teacher Account (guide pour les comptes pour enseignants, en anglais)</a>
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Ordre du jour
+
+      ![icône d'intro](framework/img/workshop/intro-icon.png) Introduction et remue-méninge (30 minutes)
+
+      ![icône de programmation en groupe](framework/img/workshop/code-icon.png) Postes (1 heure)
+
+      &nbsp; &nbsp; &nbsp; Pause (10 minutes)
+
+      ![icône d'ordinateur](framework/img/workshop/laptop-icon.png) Construction du jeu vidéo (2 heures)
+
+      ![icône d'ordinateur, groupe](framework/img/workshop/laptop-icon.png) Test bêta (10 minutes)
+
+      &nbsp; &nbsp; &nbsp; Publication du jeu (10 minutes)
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Introduction
+
+      ##Dialogue d'ouverture
+
+      Bienvenue à l'atelier de Girls Learning Code : Production d'un jeu vidéo en collaboration! Nous sommes ravies que vous soyez ici aujourd'hui et nous espérons que vous êtes prêtes à apprendre plein de nouvelles choses.
+
+      Y a-t-il des gens qui ont déjà assisté à l'une de nos activités?
+      (Si certaines apprenantes lèvent la main, demandez-leur quelles sont les activités auxquelles elles ont participé.)
+
+      Nous avons commencé à organiser des ateliers et des camps pour les filles dans le cadre du programme Girls Learning Code en 2012. À la demande de parents ayant des garçons, nous avons démarré Kids Learning Code en 2013. Depuis, nous sommes présents dans plus de 29 villes du Canada et avons enseigné la programmation à plus de 19 000 enfants!
+
+      Avant de commencer l'atelier, voici quelques points à aborder :
+
+      * <strong>Salle de bains :</strong> Qui peut me pointer dans quelle direction se trouve la salle de bains? (indiquez son emplacement et précisez si la salle de bains est neutre de genre). Si vous avez besoin d'aller à la salle de bains, allez-y avec votre parent / tuteur ou un autre élève.
+      * <strong>Eau :</strong> Si vous avez une bouteille d'eau, vous pouvez la garder sur votre bureau en vous assurant que le bouchon est bien fermé quand vous ne l'utilisez pas.
+      * <strong>Pause et collation :</strong> Nous prendrons une pause au milieu de l'atelier, pendant laquelle vous pourrez manger une collation *sans arachides* ou vous étirer un peu. N'oubliez pas de jeter l'emballage de votre collation et de nettoyer les miettes quand vous aurez fini.
+
+      ##Diapositives d'introduction
+
+      <table style="font-size:2rem;">
+          <tr>
+            <td><h2>Diapositive</h2></td>
+            <td><h2>Notes</h2></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/3_fr.png" alt="slide"></td>
+            <td> J'aimerais vous présenter des gens très importants pour nous : les mentors!
+            <br>
+            <i>Demandez aux mentors de vous rejoindre à l'avant de la classe, de dire leur nom et de nommer l'un de leurs sites ou jeux préférés.</i>
+            <br><br>
+            Les mentors seront là pour vous aider si vous rencontrez des problèmes. N'hésitez pas à leur poser des questions en cas de pépin, ou à leur montrer vos super projets! </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/4_fr.png" alt="slide"></td>
+            <td>*Regardez l'ordre du jour. Informez les apprenantes qu'elles ne travailleront que sur UN poste (audio ou graphisme) pendant la période de travail aux postes (voir « Postes »).* </td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/5_fr.png" alt="slide"></td>
+            <td>
+              <ol>
+                  <li><strong>Demandez de l'aide </strong>: Si vous êtes coincées ou rencontrez des problèmes, travaillez avec votre voisine ou levez la main pour poser des questions à la formatrice ou à un mentor.
+                  <li><strong>Soyez présentes </strong>: Nous souhaitons que vous appreniez beaucoup de choses pendant l'atelier. Assurez-vous de prêter attention pendant le cours et de suivre pendant les activités.
+                  <li><strong>Faites de votre mieux</strong> : Même les meilleures programmeuses éprouvent parfois de la difficulté. Nous ne nous attendons pas à ce tout soit parfait la première fois, mais nous voulons que vous fassiez de votre mieux. N'ayez pas peur d'essayer de nouvelles choses et de vous tromper!</td>
+                </ol>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/6_fr.png" alt="slide"></td>
+            <td> *(Écoutez deux ou trois réponses)</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/7_fr.png" alt="slide"></td>
+            <td> *Moment idéal pour faire l'activité hors ligne <a href="https://docs.google.com/document/d/19PQ0b9IB8D77CU9LSKUbNaEBvgsTVyytM_LUf0NGjSY/edit?usp=sharing">Le robot</a>*</td> (disponible en français).
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/9_fr.png" alt="slide"></td>
+            <td>Q : Que veut dire « en collaborant »?
+            <br>R : Ensemble! Nous travaillerons sur différents projets et nous les combinerons pour créer un mégaprojet.
+            <br><br>Q : Qu'est-ce qu'un problème de société? Quelle est la différence entre un problème personnel et un problème de société?
+            <br>R : Un problème de société affecte tout le monde ou un grand nombre de gens (p. ex. : la population d'un pays, les femmes, les animaux).
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/10_fr.png" alt="slide"></td>
+            <td> *(Écoutez deux ou trois réponses)*</td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/11_fr.png" alt="slide"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><img src="framework/img/workshop/slides/12_fr.png" alt="slide"></td>
+            <td>Nous ferons les étapes ensemble. Pour la plupart des jeux dans la vraie vie, le processus prend des années à compléter. Toutefois, pendant l'atelier, chaque étape sera raccourcie pour que nous terminions aujourd'hui.
+            <br><br>Q : Qu'est-ce que le « débogage »? Pourquoi le fait-on durant l'étape de production?
+            <br>R : Les bogues sont des erreurs dans un jeu (p. ex. : quand le jeu gèle ou quand il y a des fautes d'orthographe). Le débogage est la correction des erreurs et la résolution des problèmes. Nous ferons du débogage en produisant notre jeu, car il s'agit d'une partie essentielle du processus de création! (On le fait aussi pendant la postproduction.)</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/13_fr.png" alt="slide"></td>
+            <td>Aujourd'hui, nous ferons la construction d'un jeu vidéo. Nous diviserons la classe en deux « postes » : une moitié travaillera sur le graphisme, et l'autre sur l'audio. Évidemment, il y a plus que trois équipes qui travaillent sur la production d'un jeu, mais nous nous concentrerons sur celles-ci aujourd'hui. </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/14_fr.png" alt="slide"></td>
+            <td>Nous pouvons nous servir de la technologie (plus précisément, des jeux) pour changer le monde! Pour ce faire, nous utilisons la technologie dans le but de sensibiliser les gens à une cause, d'informer les gens à propos d'un problème, d'inciter les autres à être empathiques ou de suggérer une façon de résoudre un problème.
+            <br><br>L'organisme Games for Change se sert des jeux vidéo, du monde virtuel, pour faire un changement bien réel. Sa mission est d'« encourager les créateurs de jeux et les innovateurs de la société à mener de l'avant un changement dans le monde grâce aux jeux vidéo ».
+            <br><br>Voici deux exemples tirés de leur site.
+            </td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/15_fr.png" alt="slide"></td>
+            <td>*Exemple de thème : Déclin de la population d'abeilles*
+            <br>*(Si la responsable de section choisit un autre thème, veuillez mettre à jour cette diapositive.)*
+            <br><br>Q : Que savons-nous de notre thème?
+            <br><br>*Voyez chaque question avec le groupe. Voici quelques informations supplémentaires :*
+            <br><br><strong>Déclin de la population d'abeilles</strong>
+              <ul>
+                <li>Ce problème a commencé à la fin des années 90 quand les apiculteurs de partout à travers le monde ont constaté la disparition mystérieuse et soudaine d'abeilles. (Ils ont aussi rapporté un déclin anormalement élevé du nombre d'abeilles dans les colonies produisant du miel, comme celles du bourdon bombus affinis, qui est une espèce en voie d'extinction.)</li>
+                <li>Changement climatique : température très changeante, précipitations</li>
+                <li>Qu'est-ce que la biodiversité? : La variété des espèces vivantes et des habitats présents sur la planète.</li>
+                <li>Parasites / maladies : Les abeilles sont plus susceptibles aux maladies, et les pesticides affaiblissent leur système immunitaire.</li>
+                <li>Une cour bien entretenue est l'équivalent d'un désert pour les abeilles. Comme certaines d'entre elles ont un régime bien précis, la réduction de la biodiversité menace leur survie.</li>
+              </ul></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/16_fr.png" alt="slide"></td>
+            <td>Nous allons créer un jeu du type « ramassez les objets », dans lequel notre personnage principal bougera à l'aide des flèches pour ramasser ou éviter certains objets.
+              <br><br>Voici un exemple de jeu du type « ramassez les objets ». Le nôtre aura des joueurs, des règles et des buts différents, mais suivra plus ou moins le même principe.
+              <br><br>*Appuyez sur le bouton de démarrage du jeu pour le montrer au groupe*</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/17_fr.png" alt="slide"></td>
+            <td>Q : Qui pourrait être notre personnage principal? Que pourrait-il ramasser ou éviter?
+              <br><br>*Demandez aux apprenantes de former des groupes avec deux ou trois voisines et de penser à des idées pour remixer le jeu.
+              <br><br>Affichez une minuterie à l'avant pendant 1 ou 2 minutes (timer-tab.com). Avant de les inviter à partager leurs idées avec le groupe, passez à la prochaine diapositive afin d'expliquer le concept du document conceptuel d'un jeu.*</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/18_fr.png" alt="slide"></td>
+            <td>Le document conceptuel d'un jeu (connu sous le nom de « GDD » pour Game Design Document) est le document dans lequel nous mettrons toutes nos idées pour le jeu.
+            <br><br>Q : Pourquoi un document conceptuel doit-il toujours changer?
+            <br>R : En créant notre jeu, il est possible que nous changions d'idée, ajoutions du contenu ou trouvions un problème qui nous force à changer une partie du jeu. Tout cela est normal pendant la création!</td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/19_fr.png" alt="slide"></td>
+            <td>*Utilisez un tableau blanc ou un carton pour créer votre document conceptuel avec le groupe. Indiquez-y les éléments suivants : <strong> joueurs, règles, buts, titre</strong>.
+            <br><br>Demandez à chaque groupe de partager leurs idées de jeu tirées de l'activité « penser, discuter, partager ».
+            <br><br>Quand quelqu'un a une idée, écrivez-la au tableau (ou sur le carton). Si plusieurs disent la même idée, encerclez-la ou soulignez-la.
+            <br><br>Assurez-vous que tout le monde collabore et ait donné des idées pour chaque aspect. Au besoin, demandez au groupe de voter à propos des idées ou faites un choix vous-même afin d'économiser du temps.
+            <br><br> Si vous avez de la difficulté à trouver des idées, voici un exemple de document conceptuel pour le thème du déclin de la population des abeilles :*
+            <br><br> <strong>Document conceptuel : « Sauvez les abeilles »</strong>
+              <ul>
+                <li>Personnage principal : abeille</li>
+                <li>But : ramasser des fleurs, éviter des obstacles (pesticide)</li>
+                <li>Chaque niveau pourrait avoir des fleurs différentes, un objet bonus (du miel) ou d'autres obstacles (la pollution, un tue-mouche)</li>
+                <li>Règles : gagnez 1 point en attrapant un objet, perdez 1 point en attrapant un obstacle</li>
+                <li>Condition d'échec : pointage à 0; Condition de réussite : pointage à 10</li>
+                <li>Les niveaux pourraient être plus rapides en progressant, le pointage de la condition de réussite pourrait être plus élevé ou il pourrait y avoir plus d'obstacles</li>
+              </ul></td>
+          </tr><tr>
+            <td><img src="framework/img/workshop/slides/20_fr.png" alt="slide"></td>
+            <td>Aujourd'hui, nous travaillerons en équipe de deux avec nos parents, nos tuteurs ou les autres adultes avec qui nous sommes venus.
+            <br><br>Q : Pourquoi programmer à deux? Quels sont les avantages de travailler avec quelqu'un d'autre?
+            <br>R : Par exemple, deux têtes valent mieux qu'une seule. L'autre personne a peut-être une meilleure idée pour améliorer le projet ou celle-ci peut voir des erreurs que nous faisons et résoudre des problèmes avec nous. En travaillant à deux, on obtient un résultat plus rapidement.</td>
+          </tr><tr>
+        </table>
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Postes
+
+      * Dites à la classe que chaque groupe de tables est un « poste ».
+      * Montrez-leur l'image de la configuration du local à la diapositive 22.
+      * Dites à la classe que le poste de graphisme servira à créer des images et que le poste d'audio servira à créer des sons et de la musique de fond.
+      * Demandez aux mentors de chaque poste d'indiquer leur présence en se levant. Expliquez aux élèves que les mentors ont une liste de vérification avec des objets à créer et qu'ils assigneront au moins un objet à créer à chaque élève, au choix (plusieurs objets, s'ils finissent tôt).
+      * Dirigez l'attention du groupe vers les consignes imprimées qui se trouvent à chaque poste.
+      * Avertissez les élèves que vous souhaitez obtenir leurs images et leurs sons sur une clé USB avant la pause.
+      * N'hésitez pas à vous promener pendant l'activité des postes. Comme les mentors s'occupent des tâches à votre place, il s'agit d'un temps privilégié pour interagir avec les élèves et les parents individuellement.
+      * <strong>Prenez les 10 dernières minutes pour obtenir le plus de fichiers possible sur la clé USB fournie.</strong> Au besoin, demandez de l'aide aux mentors ou à la responsable de section.
+
+      ##Pendant la pause
+
+      Suivez <a href="https://docs.google.com/document/d/1FP8mJ6L3ZbUhKvJLDcTsRvUiRTQAzUnwtee7C7svViY/edit?usp=sharing">ces étapes</a> pour téléverser les fichiers de la clé USB vers le studio Scratch « Files » (Fichiers). (document disponible en français)
+
+      *S'il n'y a pas d'Internet : collaborez avec la responsable de section afin de copier tous les fichiers d'image et de son dans un dossier, puis copiez-les sur différentes clés USB. Demandez aux mentors de se lever pendant la petite séance de programmation Scratch en groupe afin de copier le contenu du dossier sur le bureau de l'ordinateur de chaque élève.*
+
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Construction du jeu
+
+      * Utilisez la diapositive 26 afin de montrer aux élèves où trouver le studio « Files » (Fichiers) et comment télécharger les images et l'audio (enregistrer comme fichier local).
+      * Affichez la liste de vérification de la diapositive 27 et accordez 5 minutes aux élèves afin qu'ils puissent sauvegarder leurs fichiers sur l'ordinateur.
+      * Petite séance de programmation en groupe :
+         * Ouvrez Scratch sur votre ordinateur.
+         * Montrez aux élèves les éléments principaux : la scène, les lutins, et les scripts. Enseignez-leur comment déplacer et emboîter des blocs.
+         * Montrez-leur comment téléverser des lutins : ajoutez le héros et l'objet à ramasser (c'est tout, pour l'instant!).
+         * Montrez-leur comment changer l'arrière-plan.
+         * Accordez 2 minutes aux élèves afin qu'ils puissent faire la même chose sur leur ordinateur.
+         * Pendant qu'ils attendent, les élèves peuvent aussi cliquer sur des blocs pour mettre leur fonction à l'essai.
+      * Suivez le <strong><a href="https://docs.google.com/document/d/1u_zKi3QSYP5ezvEv3ey6wXKZC7ouSisDchVslEBmRgY/edit?usp=sharing">corrigé</a></strong> pendant que vous montrez au groupe à faire un jeu du type « ramassez les objets ». (document disponible en français)
+      * *Si les élèves s'agitent, il est conseillé de prendre une pause de 5 minutes à la moitié de la séance.*
+      * Assurez-vous que tout le monde clique sur le bouton « Partager » (en haut à droite), comme dans la diapositive 29.
+      * Demandez aux apprenants d'ajouter leurs projets au studio (« Mes classes », sélectionner un studio, ajouter des projets), comme dans la diapositive 30.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Test bêta
+
+      * Posez cette question au groupe : « Qu'est-ce qu'un test bêta? » *R : Quand quelqu'un d'autre que les développeurs essaie un jeu.*
+      * Dites au groupe que nous prendrons quelques minutes pour faire un test bêta d'un niveau créé par quelqu'un d'autre dans la classe.
+      * Utilisez la diapositive 32 pour montrer aux apprenants où trouver les niveaux de tout le monde.
+      * Accordez-leur 5 minutes pour jouer à un ou deux niveaux du studio.
+      * *Bien qu'il soit impossible de corriger tous les bogues par manque de temps, il est essentiel de faire l'expérience de cette étape du processus de création.*
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Publication du jeu
+
+      * Dites à tout le monde de terminer leurs projets et de fermer leur ordinateur.
+      * Annoncez la publication de notre jeu terminé. (Yé! On est excitées!)
+      * Demandez à deux ou trois bénévoles d'aller à l'avant et de faire une DÉMONSTRATION de leurs projets. Accédez aux niveaux à partir du studio de construction de jeu (Gamebuilding).
+      * <strong>Reflexion</strong> : Utilisez la diapositive 35 pour faire un retour sur les apprentissages.
+      * Utilisez la diapositive 36 pour indiquer les éléments qui ont peut-être été oubliés.
+    </script>
+  </section>
+
+  <section class="slide" data-toc data-markdown>
+    <script type="text/template">
+      #Conclusion
+
+      Tout le monde a fait un excellent travail aujourd'hui. Nous sommes très impressionnées par vos projets!
+
+      Si vous souhaitez en savoir plus à propos de la programmation, de la conception et de la technologie, visitez notre site girlslearningcode.com pour savoir quand se dérouleront nos prochains ateliers et vous abonner à notre liste d'envoi. (Nommez le prochain atelier et faites-en une petite description.)
+
+      Avant de partir, applaudissons chaleureusement nos mentors!
+
+      Merci beaucoup! Nous espérons vous voir dans un nouvel atelier très bientôt!
+
+      <strong>Rassemblez tout le monde pour une photo de groupe! </strong>
+
+    </script>
+  </section>
+
+  </main><!-- Section principale cls -->
+
+  <src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>

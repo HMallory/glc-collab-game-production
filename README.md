@@ -1,6 +1,6 @@
-## English: (Scroll down for French *coming soon!*)
+## English: (Scroll down for French)
 
-# National Girls Learning Code Day 2018
+# National Girls Learning Code Day
 
 # Collaborative Game Production
 
@@ -58,4 +58,60 @@ Content by Kassandra Lenters and slides created by [Christina Truong](http://twi
 
 Email questions & comments to <content@ladieslearningcode.com>.
 
-## French:
+## Français :
+
+# Journée filles en programmation
+
+# Production D’un Jeu En Collaboration
+
+## Liens rapides
+
+Aperçu des notes de la formatrice : <a href="https://ladieslearningcode.github.io/glc-collab-game-production/notes-fr.html">ladieslearningcode.github.io/glc-collab-game-production/notes-fr.html</a> (version française disponible)
+
+Aperçu des diapositives : <a href="https://ladieslearningcode.github.io/glc-collab-game-production/slides-fr.html">ladieslearningcode.github.io/glc-collab-game-production/slides-fr.html</a> (version française disponible)
+
+Jeu « Attrapez-les tous » - <a href="https://docs.google.com/document/d/1u_zKi3QSYP5ezvEv3ey6wXKZC7ouSisDchVslEBmRgY/edit?usp=sharing">Corrigé</a> (version française disponible)
+
+## Consignes spéciales
+
+En tant que formatrice, vous vous occuperez de tout *sauf* des postes. Après la présentation des postes d'audio et de graphisme, les mentors s'occuperont de ceux-ci grâce au soutien de la responsable de section.
+
+## Ressources supplémentaires (facultatif)
+
+<a href="https://docs.google.com/document/d/19PQ0b9IB8D77CU9LSKUbNaEBvgsTVyytM_LUf0NGjSY/edit?usp=sharing">Activités hors ligne</a> (version française disponible)
+
+
+# PRÉPARATION :
+## Avant l'atelier
+Deux semaines avant l'atelier
+* Téléchargez ce dossier.
+* Lisez les notes de la formatrice pour comprendre le contexte de l'atelier (dans le navigateur).
+
+Une semaine avant l'atelier
+
+* Connectez-vous au compte Scratch pour enseignants de votre section à l'aide des identifiants contenus dans <a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">ce document</a>
+* Confirmez qu'une classe "GLCCodeDay2018" a bien été créée pour votre section
+* Créez un compte pour apprenant à l'aide du lien bit.ly (<a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">dans ce document</a>)
+* Exercez-vous avec le jeu « Ramassez les objets » (Catch 'Em) dans Scratch en consultant le <a href="https://docs.google.com/document/d/1u_zKi3QSYP5ezvEv3ey6wXKZC7ouSisDchVslEBmRgY/edit?usp=sharing">corrigé</a> (version française disponible).
+
+La veille de l'atelier
+
+* Mettez les diapositives à jour (dans un éditeur de texte, comme <a href="https://atom.io/">atom.io</a>) :
+    * Ajoutez les informations du réseau Wi-Fi (diapositive 1)
+    * Remplacez le lien bit.ly vers la page d'inscription (diapositive 1 et 25)
+    * *Une copie imprimée de la feuille de notes et du corrigé sera disponible le jour de l'atelier*
+
+## Pendant l'atelier
+* Ayez les notes à portée de main et consultez-les au fur et à mesure.
+* Consultez les diapositives pour vous aider pendant l'atelier.
+
+## Après l’atelier
+* Donnez-vous une petite tape dans le dos : vous avez réussi!
+
+Sources :
+
+Cette œuvre est sous licence <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/deed.fr"> Attribution - Pas d’Utilisation Commerciale 4.0 International</a>.
+
+Contenu par Kassandra Lenters et diapositives par [Christina Truong](http://twitter.com/christinatruong) pour Canada en programmation.
+
+Envoyez vos questions et vos commentaires au : <content@ladieslearningcode.com>.
