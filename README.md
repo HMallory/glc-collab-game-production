@@ -32,7 +32,6 @@ Unplugged Activities: <a href="http://bit.ly/unplugged-activities-doc">bit.ly/un
 
 * Sign in to your chapter's Scratch Teacher Account using <a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">this account info</a>
 * Confirm that a "GLCCodeDay2018" Class has been created for your chapter
-* Make a student account using the bit.ly link (<a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">found in the same doc</a>)
 * Practice going through the "Catch Em" game in Scratch using the provided <a href="https://docs.google.com/document/d/116daYtZcZ_OsVc80g6xfr8azoDyKSvYiVFA5xQrrBAc/edit?usp=sharing">Solution Sheet</a>.
 
 1 Day To Go
@@ -91,7 +90,6 @@ Une semaine avant l'atelier
 
 * Connectez-vous au compte Scratch pour enseignants de votre section à l'aide des identifiants contenus dans <a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">ce document</a>
 * Confirmez qu'une classe "GLCCodeDay2018" a bien été créée pour votre section
-* Créez un compte pour apprenant à l'aide du lien bit.ly (<a href="https://docs.google.com/document/d/1eLUxo_fwtSpqbp5XuUpKyT_fDkXoHhWtVr02K-CTrwo/edit?usp=sharing">dans ce document</a>)
 * Exercez-vous avec le jeu « Ramassez les objets » (Catch 'Em) dans Scratch en consultant le <a href="https://docs.google.com/document/d/1u_zKi3QSYP5ezvEv3ey6wXKZC7ouSisDchVslEBmRgY/edit?usp=sharing">corrigé</a> (version française disponible).
 
 La veille de l'atelier
